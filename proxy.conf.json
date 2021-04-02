@@ -1,0 +1,8 @@
+{
+        "/v2": {
+        "target": "https://newsapi.org/v2",
+        "changeOrigin": true,
+        "secure": false,
+        "logLevel": "debug"
+        }
+       }

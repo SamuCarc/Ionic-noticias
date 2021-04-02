@@ -1,5 +1,14 @@
 {
   "name": "04-noticias",
-  "integrations": {},
-  "type": "angular"
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular",
+  "proxies": [
+    {
+      "path": "/v2",
+      "proxyUrl": "https://newsapi.org/v2"
+    }
+  ]
 }

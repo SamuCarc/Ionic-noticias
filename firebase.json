@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "www",
+    "site": "ionic-curso-38c0a",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
